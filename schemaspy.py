@@ -51,8 +51,8 @@ options =  "-hq -norows"
 import argparse
 import sys
 
-desc = " Python Interactive Installer "
-parser = argparse.ArgumentParser(prog='mathpy', description=desc)
+desc = "Schemaspy Python Wrapper"
+parser = argparse.ArgumentParser(prog='schemaspy.py', description=desc)
 
 parser.add_argument("--database", "-d", help="Database Type")
 parser.add_argument("--output", "-o", help="Output directory")
